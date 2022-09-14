@@ -1,0 +1,85 @@
+@font-face {
+    font-family: HappyMonkey ;
+    src: url(HappyMonkey.ttf);
+}
+
+body {
+   margin: auto;
+   text-align: center;
+   color: white; 
+   text-shadow: 2px 2px 2px black;
+   font-family: HappyMonkey;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?cs=srgb&dl=pexels-felix-mittermeier-956999.jpg&fm=jpg);
+    background-size: cover;
+    padding: 0px 0px 220px 0px;
+    height: 600px;
+}
+
+#bday-word {
+    text-transform: uppercase;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+#bday-date {
+    background: #EFB0C9;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+#sacha-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    margin: 15px 0px 15px 0px;
+    border: 5px solid green;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(purple, blue);
+    padding-bottom: 100px;
+    font-size: large;
+    height: 700px;
+}
+
+.gift-section {
+    padding-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0px;
+}
+
+.gift-img {
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    margin: 25px auto;
+    background-image: url(images/gift-cover.jpg);
+    margin-top: 80px;
+}
+
+#gift-img-1:hover {
+    background-image: url(https://media.giphy.com/media/xUjSOWCndCdECCyOEY/giphy.gif);
+    background-size: cover;
+}
